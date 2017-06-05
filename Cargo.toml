@@ -1,0 +1,13 @@
+[package]
+name = "rust-test"
+version = "0.1.0"
+authors = ["Ivan Podorozhny <ivan@podorozhny.ru>"]
+
+[dependencies]
+tera = "*"
+lazy_static = "*"
+serde_json = "*"
+
+[[bin]]
+name = "rust-test"
+path = "src/main.rs"
